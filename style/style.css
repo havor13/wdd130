@@ -1,0 +1,41 @@
+/* Style for the main content area */
+main {
+  width: 80%;
+  margin: auto;
+}
+
+/* Style for the aside section (new!) */
+aside {
+  width: 80%;
+  margin: 2rem auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Keep the aside image at a clean size while preserving its aspect ratio */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Scope the profile image to main only */
+main img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Reset paragraph padding globally */
+p {
+  padding: 0;
+}
+
+/* Style for the footer */
+footer {
+  margin-top: 2rem;
+  border-top: 1px solid #999;
+  text-align: center;
+  padding-top: 1rem;
+}
