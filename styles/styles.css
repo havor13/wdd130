@@ -1,38 +1,56 @@
-/* Style for the main content area */
-main {
-  width: 80%;
+/* 1. General nav styling */
+nav {
+  background-color: #eee;
+  padding: 1rem;
+}
+
+/* 2. Anchor styling inside nav */
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* 3. Style the <h1> heading */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* 4. Generic img styling (optional if you already use main img or aside img) */
+img {
+  display: block;
   margin: auto;
 }
 
-/* Style for the aside section (new!) */
+/* 5. main styling with max-width */
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* 6. aside styling */
 aside {
   width: 80%;
   margin: 2rem auto;
   border: 1px solid #ccc;
   padding: 1rem;
-  background-color: #f9f9f9;
+  background-color: #f0f0f0;
   color: #333;
 }
 
-/* Keep the aside image at a clean size while preserving its aspect ratio */
+/* 7. image inside aside */
 aside img {
   width: 200px;
   height: auto;
 }
 
-/* Scope the profile image to main only */
-main img {
-  width: 150px;
-  height: auto;
-  border-radius: 8px;
-}
-
-/* Reset paragraph padding globally */
+/* 8. paragraph rule */
 p {
   padding: 0;
 }
 
-/* Style for the footer */
+/* 9. footer styling */
 footer {
   margin-top: 2rem;
   border-top: 1px solid #999;
