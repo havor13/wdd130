@@ -29,6 +29,14 @@ main {
   margin: auto;
 }
 
+/* 6. image inside main */
+main img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
 /* 6. aside styling */
 aside {
   width: 80%;
