@@ -37,7 +37,7 @@ main img {
   margin: auto;
 }
 
-/* 6. aside styling */
+/* 7. aside styling */
 aside {
   width: 80%;
   margin: 2rem auto;
@@ -47,18 +47,18 @@ aside {
   color: #333;
 }
 
-/* 7. image inside aside */
+/* 8. image inside aside */
 aside img {
   width: 200px;
   height: auto;
 }
 
-/* 8. paragraph rule */
+/* 9. paragraph rule */
 p {
   padding: 0;
 }
 
-/* 9. footer styling */
+/* 10. footer styling */
 footer {
   margin-top: 2rem;
   border-top: 1px solid #999;
