@@ -28,14 +28,14 @@ p, li {
 /* 11. Hero positioning */
 .hero {
   position: relative;
-  text-align: left;
+  text-align: center;
   padding-bottom: 2rem;
 }
 .hero img {
   width: 100%;
-  height: 80vh;               /* Taller hero display */
-  object-fit: cover;          /* Crop without distortion */
-  object-position: center top;/* Focus visually on top center */
+  height: 80vh;                 /* Bigger visual impact */
+  object-fit: cover;            /* Crop smartly */
+  object-position: center top;  /* Focus on top center */
   display: block;
 }
 .hero h1,
