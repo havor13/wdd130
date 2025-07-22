@@ -8,6 +8,16 @@ body {
   padding: 0;
 }
 
+.welcome {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  text-align: center;
+  border-left: 6px solid #004e7c;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+
 /* === Header Navigation Styles === */
 header {
   display: grid;
