@@ -1,0 +1,55 @@
+/* Main content styling */
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Scoped image styling inside main only */
+main img {
+  width: 150px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Aside block styling */
+aside {
+  width: 300px;
+  margin: 30px auto;
+  border: 2px solid #aaa;
+  padding: 15px;
+  background-color: #e6f2ff;
+  color: #222;
+}
+
+/* Aside image styling */
+aside img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Paragraph styling (global) */
+p {
+  padding: 0;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 30px;
+  border-top: 2px solid #aaa;
+  text-align: center;
+  padding: 10px;
+  background-color: #f3f3f3;
+}
+
+/* Optional nav link styles */
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #005599;
+}
