@@ -260,3 +260,8 @@ footer {
 .contact-form button:hover {
   background-color: #003f7d;
 }
+
+.map {
+  border: 0;
+  display: block;
+}
