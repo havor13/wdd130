@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=wwr/about.html" />
-    <title>Redirecting...</title>
-  </head>
-  <body>
-    <p>If you are not redirected automatically, <a href="wwr/about.html">click here to go to the About Us page</a>.</p>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thrill-seeking rafting trips for all levels. Sign up and get your adrenaline flowing!" />
+  <title>White Water Rafting | Home</title>
+  <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/hero.webp" alt="Rafting team on wild river" />
+      <h1 class="hero-heading">Ride the Rapids — Adventure Awaits!</h1>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <h2>Get the Latest Rafting News</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+        <button type="submit">Join the Crew</button>
+      </form>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+      <a href="trips.html" class="cta-button">Explore Trips</a>
+    </section>
+
+    <!-- Grid Layout Section -->
+    <section class="grid-section">
+      <div class="grid-item">
+        <img src="images/rafting1.webp" alt="Group rafting with guides" />
+        <p>Our expert guides ensure your safety and exhilaration on every trip.</p>
+      </div>
+      <div class="grid-item">
+        <img src="images/rafting2.webp" alt="Rafting through canyon" />
+        <p>From calm waters to raging torrents, choose your perfect adventure.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 White Water Rafting Co. | Designed by Sampson Havor</p>
+  </footer>
+</body>
 </html>
