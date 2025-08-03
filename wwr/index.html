@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Thrill-seeking rafting trips for all levels. Sign up and get your adrenaline flowing!" />
+  <meta name="description" content="Thrill-seeking rafting trips for all levels. Sign up and get your adrenaline flowing!">
   <title>White Water Rafting | Home</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Oswald&family=Merriweather&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
@@ -28,12 +33,14 @@
     <!-- Newsletter Section -->
     <section class="newsletter">
       <h2>Get the Latest Rafting News</h2>
-      <form>
+      <form action="#" method="post">
         <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required />
+        <input type="text" name="name" id="name" required>
+
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required />
-        <button type="submit">Join the Crew</button>
+        <input type="email" name="email" id="email" required>
+
+        <button type="submit" aria-label="Subscribe to newsletter">Join the Crew</button>
       </form>
     </section>
 

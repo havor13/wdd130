@@ -1,3 +1,18 @@
+/* ==========================================================================
+   White Water Rafting Co. Stylesheet
+   Author: Sampson Havor
+   Created: August 3, 2025
+   Description: Main stylesheet for site layout, typography, and responsiveness
+========================================================================== */
+
+/* Reset and base layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
 :root {
   --primary-color: #023047;
   --accent-color: #ffb703;
